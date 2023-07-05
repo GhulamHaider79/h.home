@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+}
+.banner{
+    width: 100;
+    height: 10%;
+    background-color: rgb(443, 118, 74);
+    display: flex;
+}
+.banner-main{
+    width: 75%;
+    margin: auto;
+}
+.banner-main p{
+    text-align: center;
+}
+.logo{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    padding: 2rem;
+    margin: auto;
+    width: 100;
+    height: 100;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem 3rem;
+    box-shadow: 0 1px 8px #ddd;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 2rem;
+}
+.navbar a{
+    margin: 2rem;
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+    font-size: 1.5rem;
+}
+.navbar a:hover {
+    color: #b2dfdb;
+}
+.content{
+    width: 100%;
+    display: flex;
+}
+.welcom{
+    width: 30%; 
+    background-color: rgb(443, 118, 74, 0.8);
+    float: right;
+    position: absolute;
+    height: 100%;
+    justify-self: right;
+}
+.image{
+    width: 75%;
+    float: left;
+    height: 100%;
+}
