@@ -31,11 +31,15 @@
     width: 100;
     height: 100;
 }
+.logo link{
+    padding: 2rem;
+    margin-top: 2rem;
+}
 .navbar{
     width: 100%;
     display: flex;
-    justify-content: center;
-    padding: 1.2rem 3rem;
+    justify-content: space-evenly;
+    
     box-shadow: 0 1px 8px #ddd;
 }
 .navbar li{
@@ -131,9 +135,13 @@
     flex-wrap: wrap;
     margin-top: 5rem;
     justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .site div{
+    
     min-width: 12rem;
+    
 }
 .site div img{
     width: 100%;
@@ -232,3 +240,53 @@ padding: 0.5rem;
     line-height: 1px;
     letter-spacing: 3px;
 }
+.content1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content2{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+    flex-wrap: wrap;
+}
+.ham{
+    width: 200px;
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+    min-width: 18rem;
+    flex-direction: column;
+}
+.ham>h3,p{
+    padding: 1rem;
+    
+}
+.committed1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.committed{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    min-width: 25rem;
+}
+.committed>button{
+    width: 8rem;
+    padding: 0.8rem;
+    align-self: center;
+    background-color: rgb(243, 118, 74);
+}
+.committed>h3{
+    margin-left: 5rem;
+}
+.committed>h3,p{
+    min-width: 25rem;
+}
+
