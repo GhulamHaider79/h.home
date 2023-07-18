@@ -113,6 +113,7 @@
     padding-top: 3rem;
 }
 .welcom button{
+    border: 0;
     padding: 1rem;
     margin: 1rem;
     text-transform: uppercase;
@@ -196,9 +197,10 @@
     align-self: center;
     text-transform: uppercase;
     font-weight: 100;
-    padding: 0.2rem;
+    padding: 0.4rem;
     background-color: rgb(247, 111, 81);
     letter-spacing: 1.5px;
+    border: 0;
 }
 .short button:hover{
     color: rgb(238, 187, 175);
@@ -247,9 +249,9 @@ padding: 0.5rem;
 }
 .section-data1 button{
     padding: 0.5rem;
-    border-radius: 5%;
     text-transform: uppercase;
     background-color: rgb(247, 111, 81);
+    border: 0;
 }
 ..section-data1 p{
     line-height: 1px;
@@ -284,7 +286,7 @@ padding: 0.5rem;
 .ham>.one{
     text-align: center;
     text-indent: 2ch;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 600;
     letter-spacing: 0.045em;
     line-height: 1.5em;
@@ -322,7 +324,7 @@ padding: 0.5rem;
 }
 .committed>h4{
     margin-bottom: 24px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: 0.050em;
     font-family: Open Sans, arial,;
     font-weight: 400;
@@ -333,13 +335,13 @@ padding: 0.5rem;
     align-self: center;
 }
 .committed>p{
-    min-width: 20rem;
-    max-width: 28rem;
+    min-width: 18rem;
+    max-width: 40rem;
     text-align: center;
-    font-size: 0.7rem;
-    letter-spacing: 0.050em;
-    line-height: 1.25;
-    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.075em;
+    line-height: 1.25em;
+    font-family: arial, sans-serif;
     font-weight: 100;
     align-self: center;
 }
@@ -353,16 +355,24 @@ padding: 0.5rem;
 .red-container2{
     width: 85%;
     display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+    padding: 2rem;
+    min-width: 16rem;
+    
 
 }
 .red-container2>.red1{
-    width: 40%;
+    width: 50%;
+    margin: 1.5rem;
+
     
 }
 .red2{
+    margin: 1.5rem;
     width: 40%;
     border: 1px dashed wheat;
+
 }
 
