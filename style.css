@@ -458,4 +458,64 @@ padding: 0.5rem;
 }
 .section-down{
     margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sec-do>h3{
+    align-self: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.045rem;
+    font-family: arial,sans-serif;
+    margin-left: 2rem;
+}
+.logo-site{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    margin-left: 5rem;
+
+}
+.im1{
+    width: 167px;
+    height: 100px;
+}
+.im2{
+    width: 143px;
+    height: 100px;
+}
+.im3{
+    width: 180px;
+    height: 100px;
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.footer{
+    width: 50%;
+    align-self: center;
+}
+.footer>h4{
+    align-self: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.045rem;
+    font-family: arial,sans-serif;
+    margin-left: 4rem;
+    min-width: 18rem;
+}
+.footer>p{
+    letter-spacing: 0.090rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: arial,sans-serif;
+    min-width: 20rem;
+    max-width: 35rem;
 }
