@@ -349,6 +349,7 @@ padding: 0.5rem;
     width: 100%;
     background-color: rgb(243, 118, 74);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 2rem;
 }
@@ -356,7 +357,7 @@ padding: 0.5rem;
     width: 85%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 2rem;
     padding: 2rem;
     min-width: 16rem;
@@ -364,15 +365,97 @@ padding: 0.5rem;
 
 }
 .red-container2>.red1{
-    width: 50%;
+    width: 40%;
     margin: 1.5rem;
-
-    
 }
 .red2{
     margin: 1.5rem;
-    width: 40%;
-    border: 1px dashed wheat;
+    width: 35%;
+    min-width: 18rem;
+    display: flex;
+    flex-direction: column;
 
 }
+.red2>h4{
+    align-self: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.045rem;
+    font-family: arial,sans-serif;
 
+}
+.red2>ul>li{
+    letter-spacing: 0.045rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: arial,sans-serif;
+}
+.second-image{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2rem;
+    padding: 2rem;
+    min-width: 16rem;
+}
+.second-image>div{
+    width: 40%;
+    min-width: 18rem;
+}
+.second-image>div>h4{
+    align-self: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.045rem;
+    font-family: arial,sans-serif;
+    margin-left: 2rem;
+}
+.second-image>div>p{
+    letter-spacing: 0.045rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: arial,sans-serif;
+}
+.second-image>div>p>span{
+    margin-left: 2rem;
+}
+.family-image{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2rem;
+    min-width: 16rem;
+}
+.family-image>div>img{
+    width: 400px;
+    height: 250px;
+}
+.family-image>div{
+    width: 40%;
+    min-width: 18rem;
+}
+.family-image>div>h4{
+    align-self: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.045rem;
+    font-family: arial,sans-serif;
+    margin-left: 2rem;
+}
+.family-image>div>p{
+    letter-spacing: 0.045rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: arial,sans-serif;
+}
+.section-down{
+    margin-top: 2rem;
+}
